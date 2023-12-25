@@ -1,0 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+.iframes{
+    display: flex;
+    justify-content: space-around;
+}

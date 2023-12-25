@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.meaning{
+    text-align: center;
+}
+.meaning h1{
+    text-transform: uppercase;
+}
+.meaning p{
+    font-style: italic;
+}
+.background-origin{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.padding-box,.border-box,.content-box{
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+.padding-box h1,.border-box h1, .content-box{
+    text-align: center;
+}
+.border1{
+    padding: 50px;
+    border: 5px dashed green;
+    background-image: url('../picture/paper.gif');
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+}
+.border2{
+    padding: 50px;
+    border: 5px dashed green;
+    background-image: url('../picture/paper.gif');
+    background-repeat: no-repeat;
+    background-origin: border-box;
+}
+.border3{
+    padding: 50px;
+    border: 5px dashed green;
+    background-image: url('../picture/paper.gif');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}

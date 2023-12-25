@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/form html5.css">
+    <title>Form HTML 5</title>
+</head>
+<body>
+    <form action="#">
+        <h1>Basic HTML5 FORM</h1>
+        <fieldset>
+            <legend>Account</legend> <br>
+            <label for="firstName">First Name:</label><br>
+            <input type="text" name="firstName" placeholder="your firstName" required autocomplete=""><br>
+            <label for="lastName">Last Name:</label><br>
+            <input type="text" name="lastName" placeholder="your lastname" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" placeholder="your email" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" placeholder="your password" required><br>
+            <label for="password">Re-Password:</label><br>
+            <input type="password" name="password" placeholder="your Re-Password" required><br>
+        </fieldset>
+        <fieldset>
+            <legend>Other Questions</legend><br>
+            <label for="drink">Choose a drink:</label><br>
+            <input type="radio" name="drink">Coffee<br>
+            <input type="radio" name="drink" checked>Tea<br>
+            <input type="radio" name="drink">Hot Chocolate<br><br>
+
+            <label for="ice-cream">What ice cream do you like?</label> <br>
+            <input type="checkbox" name="chocolate">Chocolate <br>
+            <input type="checkbox" name="chocolate-pudding" checked>Chocolate Pudding <br>
+            <input type="checkbox" name="chocolate-peanut-butter">Chocolate Peanut Butter <br>
+            <input type="checkbox" name="vanilla">Vanilla <br>
+            <input type="checkbox" name="strawberry">Strawberry <br><br>
+
+            <label for="school">Select your university:</label>
+            <select name="university">
+                <option value="rupp">RUPP</option>
+                <option value="setec">SETEC</option>
+                <option value="ppiu">PPIU</option>
+                <option value="num">NUM</option>
+                <option value="ntti">NTTI</option>
+            </select> <br><br>
+
+            <label for="BOD">Select Your Birth of date:</label>
+            <input type="date" value="2002-02-02"> <br><br>
+
+            <label for="age">Select Your Age:</label>
+            <input type="number" value="21" max="100" min="1"> <br><br>
+
+            <label for="color">Select your favorite Color:</label>
+            <input type="color" value="#ff0000"> <br><br>
+
+            <label for="century">How many year in century:</label>
+            <input type="number" min="0" max="1000000" step="100"><br><br>
+
+            <label for="children">How many Children do you have :</label><br>
+            <input type="range" name="" min="0" max="100" id="send" oninput="result.value = send.value"><br>
+            <input type="text" id="result">
+            <br><br>
+
+            <label for="file">Upload your file:</label>
+            <input type="file" name="file"><br><br>
+
+            <label for="url">Add your homepage:</label>
+            <input type="url"><br><br>
+
+            <label for="phone">Your Phone number:</label>
+            <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}" placeholder="123-34-56-789" required><br><br>
+
+            <label for="search">Search Google</label>
+            <input type="search" name="search"><br><br>
+
+            <label for="comment">Please Provide a comment:</label><br>
+            <textarea name="comment" cols="70" rows="10" placeholder="say something.."></textarea>
+        </fieldset>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+</body>
+</html>

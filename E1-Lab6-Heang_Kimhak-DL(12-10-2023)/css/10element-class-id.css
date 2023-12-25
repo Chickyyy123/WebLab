@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+/* Element selector */
+p{
+    color: red;
+}
+h1{
+    text-decoration: underline;
+}
+
+/* Class selector */
+.demo1,.demo2,.demo3,.demo4,.demo5,.demo6,.demo7,.demo8,.demo9,.demo10{
+    color: #00ff00;
+    text-align: center;
+}
+
+/* id selector */
+#demo1,#demo2,#demo3,#demo4,#demo5,#demo6,#demo7,#demo8,#demo9,#demo10{
+    color: rgb(0,0,255);
+    text-align: right;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    
+}

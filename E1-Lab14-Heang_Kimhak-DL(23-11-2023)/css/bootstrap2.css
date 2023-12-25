@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.light-green {
+  background-color: lightgreen;
+  height: 100px;
+}
+.red {
+  background-color: red;
+  height: 512px;
+}
+.purple {
+  background-color: pink;
+  height: 100px;
+}
+.tomato {
+  background-color: tomato;
+  height: 200px;
+}
+.blue {
+  background-color: blue;
+  height: 100px;
+}
+.green {
+  background-color: green;
+  height: 100px;
+}
+@media screen and (min-width: 0px) {
+  .red {
+    height: 1000px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .red {
+    height: 908px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .red {
+    height: 512px;
+  }
+}

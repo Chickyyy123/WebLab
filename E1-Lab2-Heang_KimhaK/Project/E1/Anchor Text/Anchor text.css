@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none ;
+    margin-top: 100px;
+    padding: 0;
+    position: fixed;
+    width: 30%;
+    height: 100%;
+}
+ul li{
+    display: block;
+}
+ul a{
+    text-decoration: none;
+    display: block;
+    padding: 16px 20px;
+    margin-top: 5px;
+    margin-left: 50px;
+    color: blue;
+    font-size: 18px;
+}
+.home{
+    margin: 0px 10% 0px 30%;
+}
+.container-text{
+    margin: 0px 10% 0px 30%;
+}
+#p1{
+    margin: 1rem 0px 1rem 0;
+}
+h1{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: blue;
+} 
+.top, .search_engine_algorithms, .overview, .terminology, .references{
+    margin: 1rem 0px 1rem 0;
+}
+.overview span.overview{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.search_engine_algorithms span.search_engine_algorithms{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.terminology span.terminology{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.references span.references{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+hr{
+    margin: 1rem 0px 1rem 0px;
+}
+.overview span{
+    color: blue;
+    font-size: 15px;
+}
+small{
+    font-size: 14px;
+}
+code{
+    font-size: 15px;
+    font-style: italic;
+}

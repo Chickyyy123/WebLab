@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/background-origin.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Background-Origin</title>
+</head>
+<body>
+    <div class="meaning">
+        <h1>Background-Origin</h1>
+        <p>Background-Origin គឺជា Css property ដែលប្រើវាសម្រាប់ Control position of background image ដែលវាមាន Value 3 គឺ
+            padding-box(default), border-box, content-box.
+        </p>
+    </div>
+    <div class="background-origin">
+        <div class="padding-box">
+            <h1>Background-Origin: padding-box:</h1>
+            <div class="border1">
+                <h1>Hello World</h1>
+                <p>The background image starts from the upper left corner of the padding edge.</p>
+            </div>
+        </div>
+        <div class="border-box">
+            <h1>Background-Origin: border-box:</h1>
+            <div class="border2">
+                <h1>Hello World</h1>
+                <p>The background image starts from the upper left corner of the border.</p>
+            </div>
+        </div>
+        <div class="content-box">
+            <h1>Background-Origin: content-box:</h1>
+            <div class="border3">
+                <h1>Hello World</h1>
+                <p>The background image starts from the upper left corner of the content.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

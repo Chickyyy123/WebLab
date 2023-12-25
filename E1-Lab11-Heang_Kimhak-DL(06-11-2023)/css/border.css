@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.borderImage1{
+    border: 10px solid transparent; 
+    border-image: url("../picture/border.png") 20% round;
+    margin-bottom: 50px;
+}
+.borderImage2{
+    border: 10px solid transparent; 
+    padding: 15px;
+    border-image: url("../picture/border.png") 30 30 stretch;
+}

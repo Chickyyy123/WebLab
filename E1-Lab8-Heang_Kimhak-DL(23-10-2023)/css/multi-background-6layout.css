@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../picture/mountain.svg');
+    background-repeat: no-repeat;
+    background-position: 0px 200px;
+    background-size: cover;
+    background-color: #e1d0c4;
+    position: fixed;
+
+}
+.layer2{
+    display: flex;
+    justify-content: space-between;
+}
+.layer2 .cloud1{
+    background-image: url(../picture/cloud.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 200px;
+    margin-left: 50px;
+
+}
+.layer2 .sun{
+    background-image: url(../picture/sun.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 200px;
+}
+.layer2 .cloud2{
+    background-image: url(../picture/cloud.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 200px;
+    margin-right: 900px;
+}
+.layer3 .bird{
+    background-image: url(../picture/bird.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 200px;
+    margin-top: -50px;
+    margin-left: 600px;
+    z-index: 2;
+}
+.layer4 .palm-tree{
+    background-image: url(../picture/parm\ tree.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 400px;
+    height: 450px;
+    margin-left: 10px;
+    margin-top: -80px;
+}
+.layer5 .home{
+    background-image: url(../picture/home.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    margin-top: -280px;
+    margin-left: 1100px;
+}
+.layer6 .cow{
+    background-image: url(../picture/cow.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 200px;
+    margin-left: 230px;
+    margin-top: -180px;
+}
+.layer7 .lake{
+    background-image: url(../picture/lake.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    margin-top: -250px;
+    margin-left: 500px;
+}
+.layer7 .duck{
+    background-image: url(../picture/duck.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 200px;
+    margin-top: -250px;
+    margin-left: 600px;
+}
+.layer8 .man{
+    background-image: url(../picture/man.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 200px;
+    margin-top: -250px;
+    margin-left: 800px;
+}
+.layer9 .dog{
+    background-image: url(../picture/dog.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 200px;
+    margin-top: -140px;
+    margin-left: 1000px;
+}
+
+.layer10{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+.layer10 .grass{
+    background-image: url(../picture/grass.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    margin-top: -180px;
+}
+

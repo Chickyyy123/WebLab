@@ -1,0 +1,5 @@
+1. My Personal website build only HTML and CSS and no responsive yet! so when teacher resize the browser my website will be ខ្ទិច។
+
+2. About star background i get it from codePen as i mention in the code above.(i want my website looking cool but i don't know how to build star background yet so i decide to copy it. I hope teacher will tolerate !).
+
+=============================== Thank you for reading ! ==========================

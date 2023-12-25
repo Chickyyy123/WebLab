@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.social{
+    width: 203px;
+    height: 183px;
+    border:  1px solid black;
+    float: left;
+}
+.fb{    
+    background-image: url('../image/social.png');
+    background-position: -203px 0px;
+}
+.ig{
+    background-image: url('../image/social.png');
+}
+.tt{    
+    background-image: url('../image/social.png');
+    background-position: -406px 0px;
+}
+.yt{   
+    background-image: url('../image/social.png');
+    background-position: -609px 0px
+}
+.wa{    
+    background-image: url('../image/social.png');
+    background-position: -800px 0px;
+}
+.gg{    
+    background-image: url('../image/social.png');
+    background-position: 10px 360px;
+}
+.sc{    
+    background-image: url('../image/social.png');
+    background-position: -203px 360px;
+}
+.ad{    
+    background-image: url('../image/social.png');
+    background-position: -406px 360px;
+}
+.sr{    
+    background-image: url('../image/social.png');
+    background-position: -609px 360px;
+}
+.wp{    
+    background-image: url('../image/social.png');
+    background-position: -800px 360px;
+}

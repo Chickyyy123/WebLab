@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.transition{
+    width: 60px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.transition:hover{
+    width: 100px;
+    height: 100px;
+
+}

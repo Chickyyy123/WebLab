@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: kolen;
+    src: url(../font/Koulen-Regular.ttf);
+}
+.borderCertificate{
+    background-image: url('/picture/image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -40px;
+    width: 1300px;
+    height: 800px;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+    margin-left: 250px;
+    margin-top: 130px;
+    text-align: center;
+}
+.section2{
+    margin-left: -90px;
+}
+.section1{
+    font-weight: bold;
+    font-style: italic;
+    line-height: 5px;
+}
+.section3{
+    font-style: italic;
+    line-height: 5px;
+    font-family: kolen;
+    margin-right: 100px;
+}
+.section4{
+    line-height: 10px;
+    font-size: 15px;
+    margin-top: -140px;
+    margin-left: 30px;
+    font-style: italic;
+}
+.section5{
+    font-style: italic;
+    line-height: 10px;
+    font-family: kolen;
+    margin-right: 50px;
+    margin-top: -140px;
+    font-size: 15px;
+}
+.bottom img{
+    width: 870px;
+    height: 200px;
+    margin-left: 225px;
+    margin-top: -10px;
+}

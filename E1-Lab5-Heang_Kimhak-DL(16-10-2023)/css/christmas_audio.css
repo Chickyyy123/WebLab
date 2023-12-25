@@ -1,0 +1,255 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: radial-gradient(circle at 50% 55%, hsl(212, 55%, 53%), hsl(212, 55%, 43%), hsl(212, 55%, 23%));
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.background-image{
+    background-image: url(../picture/teacher.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: contain;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-position: center;
+    z-index: -1;
+  }
+  .snowflake {
+      color: white;
+      font-size: 1em;
+      font-family: Arial;
+      text-shadow: 0 0 1px #000;
+      position: fixed;
+      top: -10%;
+      z-index: 9999;
+      user-select: none;
+      cursor: default;
+      animation-name: snowflakes-fall, snowflakes-shake;
+      animation-duration: 10s, 3s;
+      animation-timing-function: linear, ease-in-out;
+      animation-iteration-count: infinite, infinite;
+      animation-play-state: running, running;
+  }
+  
+  .snowflake:nth-of-type(0) {
+      left: 1%;
+      animation-delay: 0s, 0s;
+  }
+  
+  .snowflake:nth-of-type(1) {
+      left: 10%;
+      animation-delay: 1s, 1s;
+  }
+  
+  .snowflake:nth-of-type(2) {
+      left: 20%;
+      animation-delay: 6s, .5s;
+  }
+  
+  .snowflake:nth-of-type(3) {
+      left: 30%;
+      animation-delay: 4s, 2s;
+  }
+  
+  .snowflake:nth-of-type(4) {
+      left: 40%;
+      animation-delay: 2s, 2s;
+  }
+  
+  .snowflake:nth-of-type(5) {
+      left: 50%;
+      animation-delay: 8s, 3s;
+  }
+  
+  .snowflake:nth-of-type(6) {
+      left: 60%;
+      animation-delay: 6s, 2s;
+  }
+  
+  .snowflake:nth-of-type(7) {
+      left: 70%;
+      animation-delay: 2.5s, 1s;
+  }
+  
+  .snowflake:nth-of-type(8) {
+      left: 80%;
+      animation-delay: 1s, 0s;
+  }
+  
+  .snowflake:nth-of-type(9) {
+      left: 90%;
+      animation-delay: 3s, 1.5s;
+  }
+  
+  @keyframes snowflakes-fall {
+      0% {
+          top: -10%;
+      }
+      100% {
+          top: 100%;
+      }
+  }
+  
+  @keyframes snowflakes-shake {
+      0% {
+          transform: translateX(0px);
+          -webkit-transform: translateX(0px);
+          -moz-transform: translateX(0px);
+          -o-transform: translateX(0px);
+          -ms-transform: translateX(0px);
+      }
+      50% {
+          transform: translateX(80px);
+          -webkit-transform: translateX(80px);
+          -moz-transform: translateX(80px);
+          -o-transform: translateX(80px);
+          -ms-transform: translateX(80px);
+      }
+      100% {
+          transform: translateX(0px);
+          -webkit-transform: translateX(0px);
+          -moz-transform: translateX(0px);
+          -o-transform: translateX(0px);
+          -ms-transform: translateX(0px);
+      }
+  }
+
+
+  #tree{
+    z-index: 1;
+    width: 50vw;
+    height: 45vh;
+    display: block;
+    margin: 0 auto;
+    padding-top: 350px;
+}
+#canvas{
+    position: absolute;
+    z-index: 2;
+    height: 100vh;
+    width: 100vw;
+}
+.red{
+    fill: #aa1231;
+    -webkit-animation: 0.6s red-flash ease-in-out infinite;
+    animation: 0.6s red-flash ease-in-out infinite;
+}
+@-webkit-keyframes red-flash{
+    40%{
+        fill: #ea385c;
+    }
+    80%{
+        fill: #aa1231;
+    }
+}
+@keyframes red-flash{
+    40%{
+        fill: #ea385c;
+    }
+    80%{
+        fill: #aa1231;
+    }
+}
+.gold-lt{
+    fill: #c1881c;
+    -webkit-animation: 0.6s gold-lt-flash ease-in-out infinite;
+    animation: 0.6s gold-lt-flash ease-in-out infinite;
+}
+@-webkit-keyframes gold-lt-flash{
+    40%{
+        fill: #e7b75c;
+    }
+    80%{
+        fill: #c1881c;
+    }
+}
+@keyframes gold-lt-flash{
+    40%{
+        fill: #e7b75c;
+    }
+    80%{
+        fill: #c1881c;
+    }
+}
+.blue-lt{
+    fill: #1f3e64;
+    -webkit-animation: 0.6s blue-lt-flash ease-in-out infinite;
+    animation: 0.6s blue-lt-flash ease-in-out infinite;
+}
+@-webkit-keyframes blue-lt-flash{
+    40%{
+        fill: #386fb1;
+    }
+    80%{
+        fill: #1f3e64;
+    }
+}
+@keyframes blue-lt-flash{
+    40%{
+        fill: #386fb1;
+    }
+    80%{
+        fill: #1f3e64;
+    }
+}
+.blue-dk{
+    fill: #0f1f2f;
+    -webkit-animation: 0.6s blue-dk-flash ease-in-out infinite;
+    animation: 0.6s blue-dk-flash ease-in-out infinite;
+}
+@-webkit-keyframes blue-dk-flash{
+    40%{
+        fill: #28527c;
+    }
+    80%{
+        fill: #0f1f2f;
+    }
+}
+@keyframes blue-dk-flash{
+    40%{
+        fill: #28527c;
+    }
+    80%{
+        fill: #0f1f2f;
+    }
+}
+.gold-dk{
+    fill: #69512a;
+    -webkit-animation: 0.6s gold-dk-flash ease-in-out infinite;
+    animation: 0.6s gold-dk-flash ease-in-out infinite;
+}
+@-webkit-keyframes gold-dk-flash{
+    40%{
+        fill: #b28947;
+    }
+    80%{
+        fill: #69512a;
+    }
+}
+@keyframes gold-dk-flash{
+    40%{
+        fill: #b28947;
+    }
+    80%{
+        fill: #69512a;
+    }
+}
+.g1{
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+.g2{
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+.g3{
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}

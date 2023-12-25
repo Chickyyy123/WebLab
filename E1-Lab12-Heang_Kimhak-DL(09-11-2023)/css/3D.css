@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.l-3D{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    border-radius: 5px;
+    transition: width 0.3s, transform 3s;
+    cursor: pointer;
+}
+.l-3D:hover{
+    transform: rotateX(360deg);
+}

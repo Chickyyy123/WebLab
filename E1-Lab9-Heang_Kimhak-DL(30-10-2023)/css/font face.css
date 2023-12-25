@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "english1";
+    src: url("../font/english1.otf");
+}
+@font-face {
+    font-family: "english2";
+    src: url("../font/english2.otf");
+}
+@font-face {
+    font-family: "english3";
+    src: url("../font/english3.otf");
+}
+@font-face {
+    font-family: "english4";
+    src: url("../font/english4.ttf");
+}
+@font-face {
+    font-family: "english5";
+    src: url("../font/english5.ttf");
+}
+@font-face {
+    font-family: "khmer1";
+    src: url("../font/Khmer1.ttf");
+}
+@font-face {
+    font-family: "khmer2";
+    src: url("../font/khmer2.ttf");
+}
+@font-face {
+    font-family: "khmer3";
+    src: url("../font/khmer3.ttf");
+}
+@font-face {
+    font-family: "khmer4";
+    src: url("../font/khmer4.ttf");
+}
+@font-face {
+    font-family: "khmer5";
+    src: url("../font/Khmer5.ttf");
+}
+/* English font */
+.english1{
+    font-family: english1;
+}
+.english2{
+    font-family: english2;
+}
+.english3{
+    font-family: english3;
+}
+.english4{
+    font-family: english4;
+}
+.english5{
+    font-family: english5;
+}
+/* KHmer font */
+.khmer1{
+    font-family: khmer1;
+}
+.khmer2{
+    font-family: khmer2;
+}
+.khmer3{
+    font-family: khmer3;
+}
+.khmer4{
+    font-family: khmer4;
+}
+.khmer5{
+    font-family: khmer5;
+}
+h1{
+    text-align: center;
+}
+.language{
+    display: flex;
+    justify-content: space-around;
+}

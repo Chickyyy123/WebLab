@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.red {
+  background-color: red;
+  height: 50px;
+}
+.tomato {
+  background-color: tomato;
+  height: 150px;
+}
+.yellow {
+  background-color: yellow;
+  height: 100px;
+}
+.yellow1 {
+  background-color: yellow;
+  height: 100px;
+  margin-top: -45px;
+}
+.green {
+  background-color: green;
+  height: 150px;
+}
+.blue {
+  background-color: blue;
+  height: 150px;
+}
+.pink {
+  background-color: pink;
+  height: 200px;
+  margin-top: -95px;
+}
+@media screen and (max-width: 768px) {
+  .pink {
+    margin-top: 5px;
+  }
+}
